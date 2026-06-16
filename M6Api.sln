@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37111.16 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M6Api", "M6Api\M6Api.csproj", "{0C42974A-F894-4D8A-B623-3F225F26B057}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C42974A-F894-4D8A-B623-3F225F26B057}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C42974A-F894-4D8A-B623-3F225F26B057}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C42974A-F894-4D8A-B623-3F225F26B057}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C42974A-F894-4D8A-B623-3F225F26B057}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {54B8776B-1833-42D0-AE6D-84DCE0D4D7CC}
+	EndGlobalSection
+EndGlobal
