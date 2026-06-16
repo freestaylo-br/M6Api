@@ -1,14 +1,10 @@
 ﻿namespace M6Api.DTOs;
 
-public class PartnerDto
+public class PartnerEditDto
 {
-    public int IdPartner { get; set; }
-
     public string PartnerType { get; set; } = "";
 
     public string PartnerName { get; set; } = "";
-
-    public string DirectorFullName { get; set; } = "";
 
     public string DirectorLastname { get; set; } = "";
 
@@ -32,7 +28,5 @@ public class PartnerDto
 
     public string Inn { get; set; } = "";
 
-    public int Discount { get; set; }
-
-    public string Rating { get; set; } = "";
+    public int Rating { get; set; }
 }
