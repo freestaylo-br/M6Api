@@ -10,7 +10,7 @@ namespace M6Api
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            builder.Services.AddDbContext<AnisMasterContext>(
+            builder.Services.AddDbContext<KarpovMasterContext>(
                 options =>
                     options.UseNpgsql(
                         builder.Configuration

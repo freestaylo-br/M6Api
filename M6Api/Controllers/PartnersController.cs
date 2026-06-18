@@ -9,10 +9,10 @@ namespace M6Api.Controllers;
 [Route("api/[controller]")]
 public class PartnersController : ControllerBase
 {
-    private readonly AnisMasterContext _context;
+    private readonly KarpovMasterContext _context;
 
     public PartnersController(
-        AnisMasterContext context)
+        KarpovMasterContext context)
     {
         _context = context;
     }
